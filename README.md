@@ -17,7 +17,7 @@ download bản cho windown về cài đặt như phầm mềm bình thường
 Tạo file `.env` với key như file `.env.example` như sau:
 
 ```
-PROVIDER_URL= <đăng ký account và lấy endpoitn trên https://app.infura.io/dashboard>
+PROVIDER_URL= <đăng ký account và lấy endpoint trên https://app.infura.io/dashboard>
 
 PRIVATE_KEY= <địa chỉ ví thực hiện ký giao dịch>
 
@@ -26,7 +26,16 @@ RECIEPT_ADDRESS= <địa chỉ nhận inscription, có thể giống địa ch�
 RANGE_INDEX= <danh sách ID muốn mint, phân tách nhau bởi dấu phẩy>
 
 DATA= <là format json của token muốn mint, chú ý id thay bằng "xxxxxx">
-ví dụ: data:,{"p":"erc-20","op":"mint","tick":"gwei","id":"xxxxxx","amt":"1000"}
+```
+
+Ví dụ:
+
+```
+PROVIDER_URL=https://bsc-dataseed.binance.org
+PRIVATE_KEY=xxxyyyzzz
+RECIEPT_ADDRESS=0x123456
+RANGE_INDEX=1011,1234,5678
+DATA=data:,{"p":"erc-20","op":"mint","tick":"gwei","id":"xxxxxx","amt":"1000"}
 ```
 
 ## 4. Run
