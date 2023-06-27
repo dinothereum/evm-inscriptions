@@ -10,7 +10,9 @@ Vui lòng truy cập [https://nodejs.org/en/download](https://nodejs.org/en/down
 
 download bản cho windown về cài đặt như phầm mềm bình thường
 
-## 2. Download code về (join Discord tạo ticket để nhận code: https://discord.gg/z4rXJdcstq)
+## 2. Download code về
+
+Join Discord tạo ticket để nhận source code từ admin: https://discord.gg/z4rXJdcstq
 
 ## 3. Cấu hình môi trường
 
@@ -19,9 +21,9 @@ Tạo file `.env` với key như file `.env.example` như sau:
 ```
 PROVIDER_URL= <đăng ký account và lấy endpoint trên https://app.infura.io/dashboard>
 
-PRIVATE_KEY= <địa chỉ ví thực hiện ký giao dịch>
+PRIVATE_KEY= <địa chỉ private_key của ví thực hiện ký giao dịch>
 
-RECIEPT_ADDRESS= <địa chỉ nhận inscription, có thể giống địa chỉ ký giao dịch>
+RECIEPT_ADDRESS= <địa chỉ public address của ví nhận inscription, có thể giống địa chỉ public của ví ký giao dịch>
 
 RANGE_INDEX= <danh sách ID muốn mint, phân tách nhau bởi dấu phẩy>
 
